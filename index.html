@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <title>Matn rangini o‘zgartirish</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+    }
+    #matn {
+      padding: 20px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="matn">
+    Bu yerda matn bor. Siz istagan rangga o‘zgartirishingiz mumkin.
+  </div>
+
+  <script>
+   
+    let rang = prompt("Matn rangi qanday bo‘lsin? (masalan: red, blue, pink)");
+
+    
+    if (rang) {
+      document.getElementById("matn").style.color = rang;
+    }
+  </script>
+
+</body>
+</html>
